@@ -9,9 +9,10 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Countries></Countries>
       <Person></Person>
-      <Header></Header>
+
 
       {/* <LooadCountries></LooadCountries> */}
     </div>
